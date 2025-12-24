@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://techboss.com/wp-content/uploads/2025/01/AI_voice.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: Lato;
+
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.8);
+    padding:40px ;
+    border-radius: 10px;
+    position: absolute;
+    left:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    
+    
+}
+button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color:white;
+    transition: all 0.25;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: #45a049;
+}
